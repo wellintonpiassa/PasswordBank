@@ -21,30 +21,33 @@
 	?>
 	
 	<main>
-		<div>
-			<h2>Sign in</h2>
+		<div class="container-fluid">
+			<div class="signin-box">
+				<h2>Sign in</h2>	
+			</div>
+
 			<?php if(isset($_GET['pwdreset']) && $_GET['pwdreset'] === 'success'): ?>
 				<p>Your password has been reseted!</p>
 			<?php endif; ?>
-		</div>
 
-		<div>	
-			<form action="scripts/sign-in-script.php" method="POST">
+			<div class="forms">	
+					<form action="scripts/sign-in-script.php" method="POST">
 
-				<div><?php echo $error; ?></div>
-					
-				<label for="Emailuid">E-mail/Username</label>
-				<input type="text" name="emailuid" id="Emailuid">
+						<div><?php echo $error; ?></div>
+							
+						<label for="Emailuid"></label>
+						<input type="text" placeholder="Email" name="emailuid" id="Emailuid">
+						<br>
+						<label for="pwd"></label>
+						<input type="password" placeholder="Password" name="password" id="pwd">
+						<br>
+						<input class="submit" type="submit" name="submit" value="Sign in">
+					</form>
 
-				<label for="pwd">Password</label>
-				<input type="password" name="password" id="pwd">
+					<div><a href="reset-password.php">Forgot password?</a></div>
 
-				<input type="submit" name="submit" value="Sign in">
-			</form>
-
-			<div><a href="reset-password.php">Forgot password?</a></div>
-
-			<div>Don't have an account? <a href="sign-up.php">Sign up</a></div>
+					<div>Don't have an account? <a href="sign-up.php">Sign up</a></div>
+			</div>
 		</div>
 	</main>
 

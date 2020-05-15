@@ -1,0 +1,76 @@
+/* --- Imports --- */
+
+@font-face {
+     font-family: PostNoBillsJaffna-SemiBold;
+     src: url('../styles/fonts/PostNoBillsJaffna-SemiBold.ttf');
+}
+
+@font-face {
+     font-family: PostNoBillsJaffna-Bold;
+     src: url('../styles/fonts/PostNoBillsJaffna-Bold.ttf');
+}
+
+@font-face {
+     font-family: PostNoBillsJaffna-Medium;
+     src: url('../styles/fonts/PostNoBillsJaffna-Medium.ttf');
+}
+
+
+/* --- General Settings --- */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html{
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	font-family: PostNoBillsJaffna-SemiBold, Helvetica, sans-serif;
+}
+
+
+
+/* --- Pages ---*/
+
+.title, .about-box, .signin-box, .addaccount-box, .profile-box{
+	margin: 20px;
+	width: 35%;
+}
+
+.title h2{
+	text-align: left;
+}
+
+.title h4{
+	margin-top: 25px;
+	margin-bottom: 0px; 
+}
+
+.forms{
+	margin: -15px 20px;
+}
+
+.forms input, .forms textarea{
+	margin: 10px 0px;
+	padding: 5px;
+	width: 30%;	
+}
+
+.submit{
+	width: 10%;
+	background-color: #FAA954;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 1.25em;
+}
+
+.forms .submit:hover{
+	border: 1px solid black;
+}
+
+.forms .checkbox {
+	
+}

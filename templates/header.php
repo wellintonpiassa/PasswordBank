@@ -17,6 +17,8 @@
 
     	<!--Styles-->
     	<link rel="stylesheet" type="text/css" href="../styles/header.css">
+    	<link rel="stylesheet" type="text/css" href="../styles/pages.css">
+    	
 
 		<!---Favicon and title--->
 		<link rel="shortcut icon" href="../styles/img/Logo.png"/>

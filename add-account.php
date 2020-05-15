@@ -66,35 +66,37 @@
     <main>
         <div>
             <?php if(!isset($_GET['success'])): ?>
-                <div><h3>Add new account:</h3></div>
+                <div class="addaccount-box">
+                    <h3>Add new account:</h3>
+                </div>
                 
                 <div><?php echo $empty;?></div>
 
-                <div>
+                <div class="forms">
                     <form action="scripts/add-account-script.php" method="POST">
-                        <label for="service">*Service: </label>
+                        <label for="service">*Service: </label><br>
                         <input type="text" id="service" name="service" value="<?php echo $service; ?>" placeholder="Facebook, Google, ..">  
                         <div><?php echo $serviceErr; ?></div>
                         
-                        <label for="emailuid">*Email/Username:</label>
+                        <label for="emailuid">*Email/Username:</label><br>
                         <input type="text" id="emailuid" name="emailuid" value="<?php echo $emailuid; ?>" placeholder="example@example.com"> 
                         <div><?php echo $emailuidErr; ?></div>
 
-                        <label for="pwd">*Password: </label>
+                        <label for="pwd">*Password: </label><br>
                         <input type="password" id="pwd" name="pwd" value="<?php echo $pwd; ?>">
                         <div><?php echo $pwdErr; ?></div>
 
-                        <label for="extra">Extra information: </label>
+                        <label for="extra">Extra information: </label><br>
                         <textarea  id="extra" name="extra" cols="50" rows="5"><?php echo $extra;?></textarea>
                         <div><?php echo $extraErr; ?></div>
 
-                        <label for="desc">Description: </label>
+                        <label for="desc">Description: </label><br>
                         <textarea id="desc" name="description" cols="50" rows="5"><?php echo $desc;?></textarea>
                         <div><?php echo $descErr; ?></div>
 
                         <input type="hidden" name="userid" value="<?php echo $_SESSION['userId'] ?>">
 
-                        <input type="submit" name="add" value="Add">  
+                        <input class="submit" type="submit" name="add" value="Add">  
                     </form>
                 </div> 
             <?php else: ?> 
