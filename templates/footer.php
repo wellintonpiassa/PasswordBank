@@ -1,19 +1,58 @@
 
 		<footer>
 			
-			<div>
-				<p>Copyright © 2020 PasswordBank, Inc.<p>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-5 links-footer">
+						<a href="about-us.php">About us</a>
+						<a href="#">Help and support</a>
+						<a href="#">Terms of use</a>
+						<a href="#">Privacy Policy</a>
+					</div>
 
-				<ul>
-					<li><a href="about-us.php">About us</a></li>
-					<li><a href="#">Help and support</a></li>
-					<li><a href="#">Terms of use</a></li>
-					<li><a href="#">Privacy Policy</a></li>
+					<div class="col-md-3 social">
+						<div>
+							Copyright © 2020 PasswordBank, Inc.	
+						</div>
+						
+						<div class="navbar navbar-expand">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href=""><i class="fab fa-instagram"></i></a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link" href=""><i class="fab fa-facebook-square"></i></a>
+								</li>
 
-				</ul>
+								<li class="nav-item">
+									<a class="nav-link" href=""><i class="fab fa-youtube"></i></a>
+								</li>
 
-				<p>Developed by <a href="https://github.com/VitorgsRuffo">Vitor G.S Ruffo</a></p>
+								<li class="nav-item">
+									<a class="nav-link" href=""><i class="fab fa-twitter-square"></i></a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-4 dev-by">	
+							<div class="row">
+								Developed by
+							</div>
+						
+							<div class="row dev">
+								Vitor G. S. Ruffo<a href="https://github.com/VitorgsRuffo"><i class="fab fa-github"></i></a>
+							</div>
+							
+							<div class="row dev">
+								Wellinton Piassa<a href="https://github.com/wellintonpiassa"><i class="fab fa-github"></i></a>
+							</div>	
+					</div>
+				</div>
 			</div>
+				
 
 		</footer>
 

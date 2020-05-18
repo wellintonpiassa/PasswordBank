@@ -1,0 +1,77 @@
+/* --- Footer --- */
+
+/* Footer general configs */
+
+footer{
+	background-color: black;
+	opacity: 0.9;
+	color: white;
+}
+
+footer a{
+	color: white;
+	padding: 0px 5px;
+}
+
+footer a:hover{
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+
+
+/* Help links */
+
+.links-footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.links-footer a{
+	text-decoration: none;
+}
+
+
+/* Social medias and Copyright */
+
+.social{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;	
+}
+
+.social a{
+	padding: 5px;
+	text-decoration: none;
+}
+
+
+/* Developers */
+
+.dev{
+	padding: 5px 20px;
+}
+
+.dev a{
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+.dev-by{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+/* Exceptions with size */
+
+@media (max-width: 992px) {
+	.social, .links-footer, .dev-by{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
