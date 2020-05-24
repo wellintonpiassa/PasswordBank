@@ -39,13 +39,19 @@ footer a:hover{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	align-items: center;	
+	align-items: center;
 }
 
 .social a{
 	padding: 5px;
 	text-decoration: none;
 }
+
+.copyright {
+	margin-top: 20px; 
+	text-align: center;
+}
+
 
 
 /* Developers */
@@ -64,14 +70,15 @@ footer a:hover{
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+	margin: 20px 0px;
+
 }
 
 
 /* Exceptions with size */
 
-@media (max-width: 992px) {
-	.social, .links-footer, .dev-by{
-		margin-top: 20px;
-		margin-bottom: 20px;
+@media (max-width: 768px) {
+	.social, .links-footer ,.dev-by{
+		margin-top: 15px;
 	}
 }

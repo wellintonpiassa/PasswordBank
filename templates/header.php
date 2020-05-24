@@ -17,10 +17,10 @@
 
     	<!--Styles-->
     	<link rel="stylesheet" type="text/css" href="../styles/header.css">
-    	<link rel="stylesheet" type="text/css" href="../styles/pages.css">
     	<link rel="stylesheet" type="text/css" href="../styles/footer.css">
+    	<link rel="stylesheet" type="text/css" href="../styles/pages.css">
+    	<link rel="stylesheet" type="text/css" href="../styles/index.css">
     	
-
 		<!---Favicon and title--->
 		<link rel="shortcut icon" href="../styles/img/Logo.png"/>
 		<title>PasswordBank</title>
@@ -32,23 +32,28 @@
 		<header>
 			<nav class="navbar navbar-expand-md fundo">
 				<div class="container-fluid">
-					<div id="logo">
+					<div class ="logo nav-brand">
 						<img src="../styles/img/Logo.png">
 						<a href="index.php"><h1>PasswordBank</h1></a>			
 					</div>
 
-					<button class="navbar-toggler" data-toggle="collapse" data-target="#navigation">
-						<i class="fas fa-bars text-white"></i>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation">
+						<span><i class="fas fa-bars text-white"></i></span>
 					</button>
 
 		            <?php if(!isset($_SESSION['username'])): ?>
 						
 					<div class="collapse navbar-collapse" id="navigation">
 						<ul class="navbar-nav ml-auto">
+							
 							<li class="nav-item"><a class="nav-link" href="index.php">The idea</a></li>
+
 							<li class="nav-item"><a class="nav-link" href="sign-in.php">Sign in</a></li>
+
 							<li class="nav-item divisor"></li>
+
 							<li class="nav-item bold"><a class="nav-link" href="sign-up.php">Sign up</a></li>
+
 						</ul>
 					</div>	
 				</div>

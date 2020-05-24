@@ -20,4 +20,4 @@
     </main>
 
 
-<!--?php require("templates/footer.php") ?> --->
+<?php require("templates/footer.php"); ?>
