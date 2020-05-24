@@ -1,3 +1,5 @@
+/* Importações */
+
 @font-face {
      font-family: PostNoBillsJaffna-SemiBold;
      src: url('../styles/fonts/PostNoBillsJaffna-SemiBold.ttf');
@@ -13,6 +15,8 @@
      src: url('../styles/fonts/PostNoBillsJaffna-Medium.ttf');
 }
 
+
+/* Body */
 
 .box-1{
 	background: url('../styles/img/back-img.png') no-repeat;
@@ -36,14 +40,6 @@
 	justify-content: space-between;
 }
 
-.text-header{
-	padding: 30px;
-	margin-top: 30px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-}
-
 .box-1-inside h3{
 	font-family: PostNoBillsJaffna-Bold;
 	margin-bottom: 30px;
@@ -53,6 +49,16 @@
 .box-1-inside h4{
 	font-family: PostNoBillsJaffna-Medium;	
 }
+
+
+.text-header{
+	padding: 30px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
 
 .carousel-header{
 	display: flex;
@@ -69,6 +75,39 @@
 }
 
 
+.box-2{
+	padding-top: 70px; 
+	padding-bottom: 70px; 
+}
+
+.box-2-inside{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}	
+
+.titles {
+	margin: 20px 0px; 
+}
+
+.titles h1{
+	margin: 0px;
+	padding: 0px;
+	font-family: PostNoBillsJaffna-Bold; 
+}
+
+.titles p{
+	margin: 0px;
+	padding-top: 20px;
+	font-size: 1.3em;
+	font-family: PostNoBillsJaffna-Medium; 
+}
+
+
+.box-2-list li{
+	padding: 10px;
+	list-style: none;
+}
 
 
 @media (max-width: 768px){
@@ -80,5 +119,11 @@
 		align-items: center;
 
 	}
+
+	.box-2{
+		padding: 0px 20px; 
+	}
+
+	
 }
 

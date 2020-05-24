@@ -58,22 +58,56 @@
 						</a>
 
 					</div>	
-
 				</div>
-
 			</div>
 			
 					
+			<div class="box-2 row">
+				
+				<article class="container col-lg-6 box-2-inside">
+
+					<div class="titles">
+						<h1>Stronger security</h1>	
+						<p>
+							To protect your data, RoboForm uses AES-256 bit encryption with PBKDF2 SHA-256. Support for two factor authentication (2FA) to access your account. The advanced online security and privacy app trusted by more than 12 million users worldwide.
+						</p>
+					</div>
+
+					<div class="box-2-list">
+						<ul>
+							<li>
+								<i class="fas fa-chevron-right"></i> Teste 1
+							</li>
+
+							<li>
+								<i class="fas fa-chevron-right"></i> Teste 2
+							</li>
+
+							<li>
+								<i class="fas fa-chevron-right"></i> Teste 3
+							</li>
+
+							<li>
+								<i class="fas fa-chevron-right"></i> Teste 4
+							</li>
+
+							<li>
+								<i class="fas fa-chevron-right"></i> Teste 5
+							</li>
+							
+						</ul>
+					</div>
+
+				</article>
+
+				<div class="col-lg-5 d-none d-lg-block d-xl-block">
+					<img class="img-fluid" src="../styles/img/seg4.jpg">
+				</div>
+
+			
+			</div>
 
 
-			<h2>Features:</h2>
-
-
-			<ul>
-				<li>Passwords easily accessible from every device.</li>
-				<li>A secure container for your passwords.</li>
-				<li>Free to use.</li>
-			</ul>
 
 		</div>
 	</main>
