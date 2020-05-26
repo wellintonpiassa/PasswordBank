@@ -16,17 +16,18 @@
 }
 
 
-/* Body */
+/* First View (Main) */
 
 .box-1{
 	background: url('../styles/img/back-img.png') no-repeat;
 	background-attachment: fixed;
+	background-size: 120%;
 	text-align: end;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
 	align-items: flex-end;
-	height: 465px;
+	height: 575px;
 }
 
 .box-1-inside{
@@ -75,6 +76,8 @@
 }
 
 
+/* Second view */
+
 .box-2{
 	padding-top: 70px; 
 	padding-bottom: 70px; 
@@ -85,6 +88,12 @@
 	flex-direction: column;
 	justify-content: space-around;
 }	
+
+.box-2-list li{
+	padding: 10px;
+	list-style: none;
+}
+
 
 .titles {
 	margin: 20px 0px; 
@@ -104,11 +113,113 @@
 }
 
 
-.box-2-list li{
-	padding: 10px;
+
+/* Box 3 (Plans) */
+
+.box-3{
+	background: url('../styles/img/fundo_plans.jpg') no-repeat; 
+	background-attachment: fixed; 
+	padding: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.box-3-inside{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.box-3 h1{
+	font-family: PostNoBillsJaffna-Bold;
+	color: white;
+	background-color: black;
+	opacity: 0.9;
+	padding: 10px; 
+	border-radius: 25px;
+	padding: 15px;
+}
+
+.box-3 section{
+	margin-top: 50px;
+}
+
+
+.left-plan, .right-plan, .main-plan{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 5px;
+	padding: 0;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.8);
+	margin-bottom: 20px;
+	padding-bottom: 20px; 
+}
+
+
+.main-plan h4{
+	font-family: PostNoBillsJaffna-Bold;
+	background-color: #FBC870;
+}
+
+.left-plan h4, .right-plan h4{
+	font-family: PostNoBillsJaffna-Medium;
+	background-color: #62E0C1;
+}
+
+
+.pattern h4{
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+	padding-top: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.pattern ul{
+	padding-top: 10px;
+	font-family: PostNoBillsJaffna-Medium;
 	list-style: none;
 }
 
+.pattern button{
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	width: 50%;
+}
+
+.pattern button:hover{
+	margin: -1px;
+	border: 1px solid black;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.8);
+}
+
+.pattern a{
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	padding: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.left-plan button, .right-plan button{
+	background-color: #62E0C1;
+}
+
+.main-plan button{
+	background-color: #FBC870;
+}
+
+
+
+/* Exceptions */
 
 @media (max-width: 768px){
 	.box-1-inside{
@@ -117,13 +228,9 @@
 
 	.box1{
 		align-items: center;
-
 	}
 
 	.box-2{
 		padding: 0px 20px; 
-	}
-
-	
+	}	
 }
-

@@ -104,13 +104,70 @@
 					<img class="img-fluid" src="../styles/img/seg4.jpg">
 				</div>
 
-			
 			</div>
 
 
+			<section class="row box-3" >
+
+				<h1 class="row">Choose a plan that’s right for you</h1>
+				
+				<section class="row col-md-12 plans">
+
+					<div class="offset-1 col-lg-2 left-plan pattern">	
+						<h4>Free</h4>
+
+						<ul>
+							<li><i class="fas fa-check"></i> Online password storage </li>
+							<li><i class="fas fa-check"></i> Storage unlimit </li>
+							<li><i class="fas fa-times"></i> Desktop Version </li>
+							<li><i class="fas fa-times"></i> Mobile password storage </li>
+							<li><i class="fas fa-times"></i> Extensions </li>
+						</ul>
+
+						<button>
+							<a href="sign-up.php">Sign Up!</a>
+						</button>
+
+					</div>
+
+					<div class="offset-1 col-lg-4 main-plan pattern">
+						<h4>Premium</h4>
+
+						<ul>
+							<li><i class="fas fa-check"></i> Online password storage </li>
+							<li><i class="fas fa-check"></i> Storage unlimit </li>
+							<li><i class="fas fa-check"></i> Desktop Version </li>
+							<li><i class="fas fa-check"></i> Mobile password storage </li>
+							<li><i class="fas fa-check"></i> Extensions </li>
+						</ul>
+
+						<button type="button">
+							<a href="#">Buy</a>
+						</button>
+					</div>
+
+					<div class="offset-1 col-lg-2 right-plan pattern">
+						<h4>Standard</h4>
+
+						<ul>
+							<li><i class="fas fa-check"></i> Online password storage </li>
+							<li><i class="fas fa-check"></i> Storage unlimit </li>
+							<li><i class="fas fa-check"></i> Desktop Version </li>
+							<li><i class="fas fa-times"></i> Mobile password storage </li>
+							<li><i class="fas fa-times"></i> Extensions </li>
+						</ul>
+
+						<button type="button">
+							<a href="#">Buy</a>
+						</button>
+					</div>
+
+				</section>
+				
+
+			</section>
 
 		</div>
 	</main>
 
 <?php require("templates/footer.php"); ?>
-

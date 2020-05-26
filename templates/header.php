@@ -28,7 +28,6 @@
 	</head>
 
 	<body>
-
 		<header>
 			<nav class="navbar navbar-expand-md fundo">
 				<div class="container-fluid">
@@ -46,7 +45,7 @@
 					<div class="collapse navbar-collapse" id="navigation">
 						<ul class="navbar-nav ml-auto">
 							
-							<li class="nav-item"><a class="nav-link" href="index.php">The idea</a></li>
+							<li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
 
 							<li class="nav-item"><a class="nav-link" href="sign-in.php">Sign in</a></li>
 
