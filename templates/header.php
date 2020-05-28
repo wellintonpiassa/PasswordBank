@@ -17,9 +17,9 @@
 
     	<!--Styles-->
     	<link rel="stylesheet" type="text/css" href="../styles/header.css">
-    	<link rel="stylesheet" type="text/css" href="../styles/footer.css">
     	<link rel="stylesheet" type="text/css" href="../styles/pages.css">
     	<link rel="stylesheet" type="text/css" href="../styles/index.css">
+    	<link rel="stylesheet" type="text/css" href="../styles/footer.css">
     	
 		<!---Favicon and title--->
 		<link rel="shortcut icon" href="../styles/img/Logo.png"/>

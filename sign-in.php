@@ -21,7 +21,7 @@
 	?>
 	
 	<main>
-		<div class="container-fluid push">
+		<div class="container-fluid final-footer">
 			<div class="signin-box">
 				<h2>Sign in</h2>	
 			</div>
@@ -46,11 +46,10 @@
 
 					<div><a href="reset-password.php">Forgot password?</a></div>
 
-					<div class="sign-in-p">Don't have an account? <a href="sign-up.php">Sign up</a> </div>
+					<div>Don't have an account? <a href="sign-up.php">Sign up</a> </div>
 			</div>
 		</div>
 
 	</main>
 
 <?php require('templates/footer.php'); ?>
-

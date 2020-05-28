@@ -89,17 +89,6 @@ body, html{
 }
 
 
-
-.sign-in-p{
-	border-bottom: 500px; 
-}
-
-.push{
-	margin-bottom: 124px; 
-}
-
-
-
 /* Exceptions */
 
 @media (max-width: 768px){
@@ -116,3 +105,4 @@ body, html{
 		margin: 10px 0px;
 	}
 }
+

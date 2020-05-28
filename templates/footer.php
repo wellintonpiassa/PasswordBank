@@ -1,7 +1,7 @@
-
+	
 		<footer>
 			
-			<div class="container-fluid">
+			<div class="container-fluid footer navbar-fixed-bottom">
 				<div class="row">
 					<div class="col-md-5 links-footer">
 						<a href="about-us.php">About us</a>

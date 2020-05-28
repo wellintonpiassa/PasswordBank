@@ -229,11 +229,18 @@
 		width: 100%;
 	}
 
-	.box1{
+	.box-1{
 		align-items: center;
+		background-size: 350%;
 	}
 
 	.box-2{
 		padding: 0px 20px; 
 	}	
+}
+
+@media (max-width: 1200px){
+	.box-1{
+		background-size: 200%;
+	}
 }

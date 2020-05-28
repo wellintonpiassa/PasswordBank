@@ -32,14 +32,14 @@
 
 							<div class="carousel-item">
 								<div class="carousel-header">
-									<p>Teste2</p>
+									<p>Never need to remember passwords again</p>
 									<i class="fas fa-user-lock"></i>				
 								</div>
 							</div>
 
 							<div class="carousel-item">
 								<div class="carousel-header">
-									<p>teste3</p>
+									<p>Improves your productivity</p>
 									<i class="fas fa-user-lock"></i>				
 								</div>
 							</div>
@@ -49,12 +49,12 @@
 
 						<a class="carousel-control-prev" href="#carousel-site" role="button" data-slide="prev">
 							<span class="carousel-control-prev-icon"></span>
-							<span class="sr-only">Anterior</span>
+							<span class="sr-only">prev</span>
 						</a>
 
 						<a class="carousel-control-next" href="#carousel-site" role="button" data-slide="next">
 							<span class="carousel-control-next-icon "></span>
-							<span class="sr-only">Proximo</span>
+							<span class="sr-only">next</span>
 						</a>
 
 					</div>	
@@ -76,23 +76,23 @@
 					<div class="box-2-list">
 						<ul>
 							<li>
-								<i class="fas fa-chevron-right"></i> Teste 1
+								<i class="fas fa-chevron-right"></i> Store passwords unlimitedly and access them from anywhere.
 							</li>
 
 							<li>
-								<i class="fas fa-chevron-right"></i> Teste 2
+								<i class="fas fa-chevron-right"></i> Synchronize your data with the device automatically.
 							</li>
 
 							<li>
-								<i class="fas fa-chevron-right"></i> Teste 3
+								<i class="fas fa-chevron-right"></i> Affordable plans
 							</li>
 
 							<li>
-								<i class="fas fa-chevron-right"></i> Teste 4
+								<i class="fas fa-chevron-right"></i> Supported platforms: Windows, macOS, Android, iOS and Linux.
 							</li>
 
 							<li>
-								<i class="fas fa-chevron-right"></i> Teste 5
+								<i class="fas fa-chevron-right"></i> Your passwords and personal information are stored in your personal encrypted safe.
 							</li>
 							
 						</ul>
