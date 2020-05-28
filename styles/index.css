@@ -208,6 +208,9 @@
 }
 
 
+.left-plan ul, .right-plan ul{
+	padding: 10px;
+}
 
 .left-plan button, .right-plan button{
 	background-color: #62E0C1;

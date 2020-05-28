@@ -16,6 +16,7 @@
 }
 
 
+
 /* --- General Settings --- */
 
 *{
@@ -48,15 +49,30 @@ body, html{
 	margin-bottom: 0px; 
 }
 
+
 .forms{
-	margin: -15px 20px;
+	margin: 20px;
 }
 
-.forms input, .forms textarea{
+.forms > *{
+	padding: 5px;
+}
+
+.forms p{
+	margin-bottom: 27px;
+}
+
+.forms input[type="text"], .forms input[type="password"], .forms textarea{
 	margin: 10px 0px;
 	padding: 5px;
-	width: 30%;	
+	width: 30%;
 }
+
+
+.check{
+	padding: 5px;
+}
+
 
 .submit{
 	width: 10%;
@@ -65,12 +81,38 @@ body, html{
 	cursor: pointer;
 	border-radius: 20px;
 	font-size: 1.25em;
+	margin-bottom: 15px;
 }
 
-.forms .submit:hover{
+.submit:hover{
 	border: 1px solid black;
 }
 
-.forms .checkbox {
-	
+
+
+.sign-in-p{
+	border-bottom: 500px; 
+}
+
+.push{
+	margin-bottom: 124px; 
+}
+
+
+
+/* Exceptions */
+
+@media (max-width: 768px){
+	.title, .about-box, .signin-box, .addaccount-box, .profile-box{
+		width: 100%;
+	}
+
+	.forms input[type="text"], .forms input[type="password"], .forms textarea, .submit{
+		width: 100%;
+		margin: 0px;
+	}
+
+	.submit{
+		margin: 10px 0px;
+	}
 }

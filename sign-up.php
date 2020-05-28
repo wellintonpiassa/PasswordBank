@@ -103,22 +103,26 @@
 							<div><?php echo $emailError; ?></div>
 
 							<label for="pwd"></label>
-							<input type="password" placeholder=" Password" name="password" id="pwd">
+							<input type="password" placeholder="Password" name="password" id="pwd">
 							<div></div>
 
 							<label for="pwd-2"></label>
 							<input type="password" placeholder=" Confirm password" name="password-2" id="pwd-2">
 							<div><?php echo $pwdError; ?></div>
 
-							<div><input class="checkbox" type="checkbox" name="cBox">By clicking, you agree to our Terms of Use and Privacy Policy.</div>
+							<div class="check">
+								<input type="checkbox" name="cBox" >
+								<label for="cBox">  
+									By clicking, you agree to our Terms of Use and Privacy Policy. 
+								</label>
+							</div>						
+							
+							<div></div>
 
 							<input class="submit" type="submit" name="submit" value="Sign up">
 								
+							<p>Already have an account?<a href="sign-in.php"> Sign in</a></p>
 						</form>
-
-						<div>
-							Already have an account? <a href="sign-in.php">Sign in</a>
-						</div>
 					</div>
 				</div>
 

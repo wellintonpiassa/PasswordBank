@@ -3,7 +3,7 @@
     <main>
         <div class="container-fluid">
             <div class="about-box">
-                <h2>About us</h2>
+                <h1>About us</h1>
                 
                 <p>
                     Hello! Some Victor
@@ -12,8 +12,9 @@
                 </p>
                 
                 <p>
-                    You can check out the source code in my <a href="https://github.com/VitorgsRuffo/PasswordBank">github page.</a>
-                
+                    You can check out the source code in our github pages:<br> 
+                    <a href="https://github.com/VitorgsRuffo/PasswordBank">Vitor</a><br>
+                    <a href="https://github.com/wellintonpiassa/PasswordBank">Wellinton</a>
                 </p>    
             </div>
         </div>
