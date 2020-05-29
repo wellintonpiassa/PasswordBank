@@ -6,3 +6,5 @@ Stack:
 	HTML5
 	PHP
 	MySQL
+	CSS3
+	Bootstrap4
