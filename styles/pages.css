@@ -1,5 +1,6 @@
 /* --- Imports --- */
 
+
 @font-face {
      font-family: PostNoBillsJaffna-SemiBold;
      src: url('../styles/fonts/PostNoBillsJaffna-SemiBold.ttf');
@@ -22,6 +23,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body, html{
@@ -34,6 +36,13 @@ body, html{
 
 
 /* --- Pages ---*/
+
+.container-adjust{
+	position: relative;
+	min-height: 76.6vh;
+	display: block;
+	overflow-y: hidden;
+}
 
 .title, .about-box, .signin-box, .addaccount-box, .profile-box{
 	margin: 20px;

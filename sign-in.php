@@ -21,7 +21,7 @@
 	?>
 	
 	<main>
-		<div class="container-fluid final-footer">
+		<div class="container-fluid final-footer container-adjust">
 			<div class="signin-box">
 				<h2>Sign in</h2>	
 			</div>

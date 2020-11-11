@@ -82,7 +82,7 @@
 
 			<?php if(!isset($_GET['success'])): ?>
 
-				<div class="container-fluid">
+				<div class="container-fluid container-adjust">
 					<div class="title">
 						<h2>Now you are only a few steps from keeping all your passwords safe!</h2>
 						<h4>Create your account</h4>	
